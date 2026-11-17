@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Registration</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial;
+        }
+
+        .container {
+            width: 400px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Service Registration Form</h2>
+
+        <form>
+
+            <label>Customer Name:</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter email">
+
+            <label>Phone Number:</label>
+            <input type="number" placeholder="Enter phone number">
+
+            <label>Service Type:</label>
+            <select>
+                <option>Select Service</option>
+                <option>Plumbing</option>
+                <option>Electrician</option>
+                <option>Cleaning</option>
+                <option>Repair</option>
+            </select>
+
+            <label>Service Date:</label>
+            <input type="date">
+
+            <label>Address:</label>
+            <textarea placeholder="Enter address"></textarea>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
